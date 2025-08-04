@@ -1,3 +1,4 @@
+// sorting based on min number
 #include <stdio.h>
 
 int main() {
