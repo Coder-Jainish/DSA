@@ -9,7 +9,7 @@ int main() {
         printf("%d ", arr[i]);
     }
     printf("\n");
-
+    // 0 to n-1 as 7 elements if 6 are sorted then 7th must sorted 
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]){
